@@ -1,0 +1,90 @@
+/*
+	Theme Name: Kotha Child
+	Theme URI: http://www.shapedtheme.com/wordpress/themes/kotha-free-responsive-wordpress-blog-theme
+	Author: ShapedTheme
+	Author URI: http://shapedtheme.com
+	Template: Kotha
+	Description: Kotha is a super clean & elegant Responsive WordPress Blog Theme. It's perfect for your personal, travel, lifestyle, food & recipes, storytelling  Blog. If you want to focus or showcase your content in a timeless manner, Kotha is right choice for you. It follows the latest trendy design with a combination of pure elegance. With Kotha, you can get right to the point, presenting your content in a clean and minimal way. It's very flexible & easy to customize. 3 Custom Widgets, Translation ready, WooCommerce Compatible, Sticky Post, Recent Posts, popular posts and unlimited theme color options, fully live customizer can give you create an high level awesome Blog easily and fast.
+	Version: 1.4
+	Tags: light, white, one-column, two-columns, right-sidebar, fluid-layout, custom-menu, featured-images, post-formats, threaded-comments, translation-ready, theme-options, full-width-template, responsive-layout
+	License: GNU General Public License v2.0
+	License URI: ​http://www.gnu.org/licenses/gpl-2.0.html
+	Text Domain: kotha-child
+*/
+
+@import url("../kotha/style.css");
+
+/* Cocktail Pages */
+
+aside.cocktail-sidebar-single {
+	float: left;
+	padding: 0 10px 0 0;
+	width: 30%;
+}
+div.cocktail-images-single {
+	float: left;
+	width: 60%;		
+}
+
+
+aside.cocktail-sidebar {
+	float: left;
+	padding: 0 10px 0 0;
+	width: 50%;
+	height: 375px;
+}
+aside h2 {
+	clear: both;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 10px 0;
+	color: #81d742;
+	font-family: "Optima", "futura", Courier, monospace;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+aside h5 {
+	clear: both;
+	color: #81d742;
+	font-family: "Optima", "futura", Courier, monospace;
+	-webkit-font-smoothing: antialiased;
+}
+aside h6 {
+	font-style: italic;
+	padding: 0 0 20px;
+}
+
+div.cocktail-images {
+	float: left;
+	width: 50%;	
+	height: 375px;	
+}
+
+div.cocktail-images img {
+	display: block;
+	margin-bottom: 50px;
+	border: 1px solid #81d742;
+}
+
+/*to change the font on social media plugin widgets */
+	
+		@font-face{
+			font-family:"Optima";
+			src:url("http://www.myfontfree.com/data/1/o/optima/unicode.optima.ttf");
+		}
+		
+		div.nivo-caption {
+				font-family: "Optima", "Futura", "Courier";
+		}
+		aside#sfsiplus_subscriber_widget_2.widget.widget_sfsiplus_subscriber_widget h5
+			{
+				font-family: "Optima", "Futura", "Courier";
+			}
+		
+/*to change the font on social media plugin widgets */
+
+div.page-content p {
+	color: white;
+	font-family: "Optima", "Futura", "Courier";
+}
